@@ -20,6 +20,9 @@ public class ApplicationConfig extends Application {
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.insider.travel.japan.wabisabi.vacaite.console.account.exception.ValidationExceptionHandler.class);
         resources.add(com.insider.travel.japan.wabisabi.vacaite.console.account.privateapi.AccountResource.class);
+        resources.add(com.insider.travel.japan.wabisabi.vacaite.console.calendarevent.privateapi.CalendarEventController.class);
+        
+        
     }
     
 }
